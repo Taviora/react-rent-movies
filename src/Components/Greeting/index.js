@@ -5,9 +5,9 @@ import {
 } from 'react-bootstrap'
 import { Greeting } from './Greeting'
 import { GreetingForm } from './GreetingForm'
-import './App.css';
 
-class App extends Component {
+
+export class NewGreeting extends Component {
   state = {
     name: this.props.name,
     message: this.props.message
@@ -52,10 +52,10 @@ class App extends Component {
   }
 }
 
-App.defaultProps = {
+NewGreeting.defaultProps = {
  name: "Gustavo",
  message: "Aprendiendo react en 1,2,3"
  
 };
 
-export default App;
+export default NewGreeting;
