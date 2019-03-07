@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-ReactDOM.render(<App name = 'React' message="Aprendiendo React en 1,2,3"/>, document.getElementById('root'));
+ReactDOM.render(<App name = 'React' message="Mensaje por defecto"/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
