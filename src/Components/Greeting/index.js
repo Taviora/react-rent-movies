@@ -34,6 +34,7 @@ export class NewGreeting extends Component {
 
   useNewGreeting = data => {
      this.setState(data);
+     
   }
 
   render() {
